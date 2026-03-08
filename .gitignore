@@ -1,0 +1,44 @@
+# --- DEPENDENCIAS (BUN) ---
+node_modules/
+bun.lockb
+
+# --- OUTPUT / COMPILACIÓN ---
+dist/
+out/
+storybook-static/
+*.tgz
+
+# --- TESTING Y COBERTURA ---
+coverage/
+*.lcov
+test-results/
+playwright-report/
+blob-report/
+
+# --- LOGS Y REPORTES ---
+*.log
+*storybook.log
+logs/
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# --- VARIABLES DE ENTORNO (SECRETOS) ---
+.env
+.env.*
+!.env.example
+
+# --- CACHÉS Y HERRAMIENTAS ---
+.eslintcache
+.cache/
+*.tsbuildinfo
+.turbo/
+.vercel/
+.next/
+
+# --- IDEs Y SISTEMA ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- STORYBOOK ESPECÍFICO ---
+.storybook-status/

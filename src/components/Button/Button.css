@@ -1,0 +1,28 @@
+/* src/components/Button/Button.css */
+.empresa-button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.empresa-button-primary {
+  background-color: #0070f3;
+  color: white;
+}
+
+.empresa-button-primary:hover {
+  background-color: #0051ad;
+}
+
+.empresa-button-secondary {
+  background-color: #eaeaea;
+  color: #444;
+}
+
+.empresa-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
