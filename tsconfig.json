@@ -22,10 +22,7 @@
     /* Tipos para la librería */
     "declaration": true,
     "declarationDir": "dist",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "baseUrl": "."
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist", "**/*.stories.tsx", "**/*.test.tsx"]
